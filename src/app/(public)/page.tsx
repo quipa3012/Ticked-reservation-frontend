@@ -1,6 +1,6 @@
 "use client";
 
-import { Card, Button, Typography } from "antd";
+import { Card, Typography } from "antd";
 import styles from "./page.module.scss";
 
 const { Title, Paragraph } = Typography;
@@ -13,7 +13,6 @@ export default function Home() {
         <Paragraph>
           Đây là giao diện trang chủ
         </Paragraph>
-        <Button type="primary">Button</Button>
       </Card>
     </div>
   );

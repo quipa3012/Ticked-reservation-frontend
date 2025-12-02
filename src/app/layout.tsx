@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.scss";
 
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
+import Header from "@/commons/components/header/Header";
+import Footer from "@/commons/components/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Ticket Reservation",

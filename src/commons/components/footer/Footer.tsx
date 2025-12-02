@@ -6,8 +6,11 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.left}>
-                    <h2>Green Space Solution</h2>
-                    <span>© {new Date().getFullYear()} MyCompany. All rights reserved.</span>
+
+                    <span>
+                        <h2>Green Space Solution</h2>
+                        © {new Date().getFullYear()} MyCompany. All rights reserved.
+                    </span>
                 </div>
 
                 <div className={styles.center}>
