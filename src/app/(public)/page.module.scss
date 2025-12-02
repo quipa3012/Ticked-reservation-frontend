@@ -1,0 +1,16 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.card {
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+
+    h1,
+    h2 {
+        margin-bottom: 16px;
+    }
+}

@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 64px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.centerMenu {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    .menu {
+        flex: 1;
+        display: flex;
+        justify-content: start;
+    }
+
+    .auth {
+        margin-right: 10%;
+    }
+}
