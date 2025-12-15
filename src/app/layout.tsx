@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.scss";
 
-import Header from "@/commons/components/header/Header";
-import Footer from "@/commons/components/footer/Footer";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
+
+import AppProviders from "@/stores/AppProviders";
 
 export const metadata: Metadata = {
   title: "Ticket Reservation",
@@ -16,12 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"app-layout"}>
-        <Header />
-        <main className="main-content">{children}</main>
-        <Footer />
-      </body>
-
+      <AppProviders>
+        <body className={"app-layout"}>
+          <Header />
+          <main className="main-content">{children}</main>
+          <Footer />
+        </body>
+      </AppProviders>
     </html>
   );
 }
