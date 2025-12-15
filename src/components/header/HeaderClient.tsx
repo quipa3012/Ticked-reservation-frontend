@@ -9,7 +9,7 @@ import styles from './header.module.scss';
 
 const menuItems = [
     { label: <Link href="/">Home</Link>, key: 'home' },
-    { label: <Link href="/hello">Hello</Link>, key: 'hello' },
+    { label: <Link href="/movies">Danh sách phim</Link>, key: 'hello' },
 ];
 
 export default function HeaderClient() {
@@ -26,7 +26,7 @@ export default function HeaderClient() {
         },
         {
             key: 'logout',
-            label: 'Logout',
+            label: 'Đăng xuất',
             danger: true,
             onClick: () => {
                 logout();
@@ -48,7 +48,7 @@ export default function HeaderClient() {
             <div className={styles.auth}>
                 {!user ? (
                     <Link href="/login">
-                        <Button type="primary">Login</Button>
+                        <Button type="primary">Đăng Nhập</Button>
                     </Link>
                 ) : (
                     <Dropdown menu={{ items: userMenuItems }} placement="bottomRight">

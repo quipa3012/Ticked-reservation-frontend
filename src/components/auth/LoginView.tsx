@@ -51,7 +51,7 @@ export default function LoginView() {
                     </Form.Item>
 
                     <Button type="primary" htmlType="submit" block>
-                        Login
+                        Đăng Nhập
                     </Button>
                 </Form>
             </Card>

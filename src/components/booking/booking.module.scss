@@ -1,0 +1,24 @@
+.container {
+    padding: 24px;
+}
+
+.section {
+    margin-bottom: 16px;
+}
+
+.select {
+    width: 300px;
+}
+
+.seatGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
