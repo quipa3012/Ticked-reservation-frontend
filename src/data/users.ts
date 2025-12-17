@@ -1,5 +1,5 @@
 export interface User {
-    id: number;
+    userId: string;
     username: string;
     password: string;
     fullName: string;
@@ -8,21 +8,21 @@ export interface User {
 
 export const users: User[] = [
     {
-        id: 1,
+        userId: '1',
         username: 'support',
         password: '123456',
         fullName: 'Người Hỗ Trợ',
         role: 'CUSTOMER_SUPPORT',
     },
     {
-        id: 2,
+        userId: '2',
         username: 'user1',
         password: '123456',
         fullName: 'Người dùng 1',
         role: 'USER',
     },
     {
-        id: 3,
+        userId: '3',
         username: 'quipa3012',
         password: '123456',
         fullName: 'Phan Anh Quí',
