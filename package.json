@@ -10,16 +10,15 @@
   },
   "dependencies": {
     "@livekit/components-react": "^2.9.17",
-    "@phosphor-icons/react": "^2.1.10",
+    "@livekit/components-styles": "^1.2.0",
     "antd": "^6.0.0",
     "axios": "^1.13.2",
-    "livekit-client": "^2.16.0",
+    "livekit-client": "^2.16.1",
     "livekit-server-sdk": "^2.14.2",
     "next": "16.0.6",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "sass": "^1.94.2",
-    "tailwind-merge": "^3.4.0"
+    "sass": "^1.94.2"
   },
   "devDependencies": {
     "@types/node": "^20",

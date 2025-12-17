@@ -10,6 +10,7 @@ import styles from './header.module.scss';
 const menuItems = [
     { label: <Link href="/">Home</Link>, key: 'home' },
     { label: <Link href="/movies">Danh sách phim</Link>, key: 'hello' },
+    { label: <Link href="/support">Tư Vấn Đặt Vé</Link>, key: 'support' },
 ];
 
 export default function HeaderClient() {

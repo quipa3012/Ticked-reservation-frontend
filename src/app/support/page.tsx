@@ -1,6 +1,9 @@
-// src/app/support/page.tsx
-import SupportView from '@/components/livekit/SupportView';
+'use client';
+
+import AgentRoom from '@/components/livekit/room/AgentRoom';
 
 export default function SupportPage() {
-    return <SupportView />;
+    return (
+        <AgentRoom />
+    );
 }
